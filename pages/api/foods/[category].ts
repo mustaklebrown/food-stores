@@ -11,11 +11,9 @@ export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse
 ) {
-  const ctg = req.query.category;
+  const category = req.query.category;
   const foods = await prisma.food.findMany({
-    where: {
-      category: ctg,
-    },
+    where: { category: category as string },
   });
 
   // const foods = data.foods.filter((item) => item.category === category);
@@ -23,6 +21,6 @@ export default async function handler(
   if (foods.length) {
     res.json(foods);
   } else {
-    res.status(404).json({ error: 'No data found for category ' + ctg });
+    res.status(404).json({ error: 'No data found for category ' + category });
   }
 }
