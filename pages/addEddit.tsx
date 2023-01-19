@@ -66,7 +66,7 @@ const AddEddit = (props) => {
     formData.append('file', file);
     formData.append('upload_preset', 'kmyv04ai');
     axios
-      .post(`http://api.cloudinary.com/v1_1/${process.env.CLOUDNARY}/image/upload`, formData)
+      .post(`http://api.cloudinary.com/v1_1/dx9ovkulf/image/upload`, formData)
       .then((res) => {
         setFormvalue({ ...formvalue, imageUrl: res.data.url });
         console.log("image uploaded successfully");
