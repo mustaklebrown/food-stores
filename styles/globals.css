@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  button {
+    @apply border px-4 py-2  uppercase;
+  }
+  h1 {
+    @apply text-3xl font-bold xl:text-5xl;
+  }
+  h2 {
+    @apply text-2xl font-bold xl:text-4xl;
+  }
+  h3 {
+    @apply text-xl font-bold xl:text-2xl;
+  }
+  p {
+    @apply text-gray-600 max-w-xl;
+  }
+}
+
+.container {
+  @apply mx-auto max-w-[1015px] px-8;
+}
+.card {
+  @apply shadow-md shadow-gray-600 hover:shadow-yellow-500 hover:shadow-md duration-200 transition-all;
+}
+
+.btn {
+  @apply inline-block px-4 sm:px-6 py-1 sm:py-2 truncate bg-yellow-500 text-white font-medium text-sm  uppercase rounded shadow-md hover:bg-yellow-700 hover:shadow-lg focus:bg-yellow-500 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-yellow-700 active:shadow-lg transition duration-150 ease-in-out;
+}
+@layer components {
+  .navlink {
+    @apply text-sm  lg:text-lg font-semibold capitalize ease-in  px-4 py-2 rounded-xl transition-all duration-200 cursor-pointer hover:text-yellow-600;
+  }
+  .linklog {
+    @apply text-sm  lg:text-lg font-semibold uppercase ease-in bg-yellow-400 py-4 transition-all duration-200 cursor-pointer text-gray-900 hover:bg-yellow-600;
+  }
+  .moblink {
+    @apply text-sm  lg:text-lg font-semibold uppercase ease-in hover:bg-yellow-400 py-4 transition-all duration-200 cursor-pointer hover:text-gray-900;
+  }
+  .active {
+    @apply text-sm  lg:text-lg capitalize font-semibold first-letter:text-lg first-letter:text-rose-700 cursor-pointer text-yellow-600;
+  }
+}

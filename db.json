@@ -1,0 +1,154 @@
+{
+  "foods": [
+    {
+      "name": "burger 2",
+      "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
+      "price": 12,
+      "rate": 0,
+      "imageUrl": "http://res.cloudinary.com/dx9ovkulf/image/upload/v1669385725/j3sa9luy1tahcsduv4we.jpg",
+      "category": "fastFood",
+      "id": "2022-11-25T14:15:51.850Z",
+      "createAt": "11/25/2022"
+    },
+    {
+      "name": "cake 1",
+      "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
+      "price": 12,
+      "rate": 0,
+      "imageUrl": "http://res.cloudinary.com/dx9ovkulf/image/upload/v1669385863/wo1n5l9qdqr1rkrjovqj.jpg",
+      "category": "house meal",
+      "id": "2022-11-25T14:18:02.865Z",
+      "createAt": "11/25/2022"
+    },
+    {
+      "name": "cake 3",
+      "description": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatu",
+      "price": "17",
+      "rate": 0,
+      "imageUrl": "http://res.cloudinary.com/dx9ovkulf/image/upload/v1669385936/elxjcmlrtthg3r561ege.jpg",
+      "category": "cake",
+      "id": "2022-11-25T14:19:39.756Z",
+      "createAt": "11/25/2022"
+    },
+    {
+      "name": "burger 4",
+      "description": "comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.",
+      "price": "24",
+      "rate": 0,
+      "imageUrl": "http://res.cloudinary.com/dx9ovkulf/image/upload/v1669390637/mpjfgootdk7jy1zmgmtf.jpg",
+      "category": "fastFood",
+      "id": "2022-11-25T15:37:36.122Z",
+      "createAt": "11/25/2022"
+    },
+    {
+      "name": "sandwish",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "price": "38",
+      "rate": 0,
+      "imageUrl": "http://res.cloudinary.com/dx9ovkulf/image/upload/v1669400277/gmbc2gy6scgoy84ymwnu.jpg",
+      "category": "fastFood",
+      "id": "2022-11-25T18:18:14.425Z",
+      "createAt": "11/25/2022"
+    },
+    {
+      "name": "pizza 1",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "price": "28",
+      "rate": 0,
+      "imageUrl": "http://res.cloudinary.com/dx9ovkulf/image/upload/v1669400464/dhveubdfx8an24dwubok.jpg",
+      "category": "pizza",
+      "id": "2022-11-25T18:21:10.079Z",
+      "createAt": "11/25/2022"
+    },
+    {
+      "name": "cake 5",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "price": "15",
+      "rate": 0,
+      "imageUrl": "http://res.cloudinary.com/dx9ovkulf/image/upload/v1669400555/qb1lvx0dkq73aohxamyw.jpg",
+      "category": "cake",
+      "id": "2022-11-25T18:22:43.869Z",
+      "createAt": "11/25/2022"
+    },
+    {
+      "name": "sandwish 2",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "price": "14",
+      "rate": 0,
+      "imageUrl": "http://res.cloudinary.com/dx9ovkulf/image/upload/v1669400813/idfsmqftviyi8lvilk4q.jpg",
+      "category": "sandwish",
+      "id": "2022-11-25T18:26:58.687Z",
+      "createAt": "11/25/2022"
+    },
+    {
+      "name": "döner",
+      "description": "BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a tr",
+      "price": "18",
+      "rate": 0,
+      "imageUrl": "http://res.cloudinary.com/dx9ovkulf/image/upload/v1669401202/azbgp9l0gl1zmrxdeh2u.jpg",
+      "category": "doner",
+      "id": "2022-11-25T18:33:27.492Z",
+      "createAt": "11/25/2022"
+    },
+    {
+      "name": "şorba",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum ",
+      "price": "19",
+      "rate": 0,
+      "imageUrl": "http://res.cloudinary.com/dx9ovkulf/image/upload/v1669459448/bsy78dz0xob59sjohpfq.jpg",
+      "category": "house meal",
+      "id": "2022-11-26T10:44:18.106Z",
+      "createAt": "11/26/2022"
+    },
+    {
+      "name": "pizza salade",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum ",
+      "price": "26",
+      "rate": 0,
+      "imageUrl": "http://res.cloudinary.com/dx9ovkulf/image/upload/v1669459562/rcbbttlinee0py0xxy0p.jpg",
+      "category": "pizza",
+      "id": "2022-11-26T10:46:05.399Z",
+      "createAt": "11/26/2022"
+    },
+    {
+      "name": "kebabe",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum ",
+      "price": "36",
+      "rate": 0,
+      "imageUrl": "http://res.cloudinary.com/dx9ovkulf/image/upload/v1669462463/qig6t55dsfufempedsv7.jpg",
+      "category": "house meal",
+      "id": "2022-11-26T11:34:25.143Z",
+      "createAt": "11/26/2022"
+    },
+    {
+      "name": "sos kebabe",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum ",
+      "price": "30",
+      "rate": 0,
+      "imageUrl": "http://res.cloudinary.com/dx9ovkulf/image/upload/v1669462753/tuwztlqwlvmccsow2xxb.jpg",
+      "category": "fastFood",
+      "id": "2022-11-26T11:39:15.241Z",
+      "createAt": "11/26/2022"
+    },
+    {
+      "name": "rice 5",
+      "description": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum ",
+      "price": "022",
+      "rate": 0,
+      "imageUrl": "http://res.cloudinary.com/dx9ovkulf/image/upload/v1669465274/xigiioz7xzuz2tvewtho.jpg",
+      "category": "house meal",
+      "id": "2022-11-26T12:21:16.246Z",
+      "createAt": "11/26/2022"
+    },
+    {
+      "name": "zater doner",
+      "description": "has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.",
+      "price": "27",
+      "rate": 0,
+      "imageUrl": "http://res.cloudinary.com/dx9ovkulf/image/upload/v1669497872/ymof8dw3wo8zgebefdeo.jpg",
+      "category": "doner",
+      "id": "2022-11-26T21:24:37.977Z",
+      "createAt": "11/27/2022"
+    }
+  ]
+}
