@@ -66,7 +66,7 @@ const AddEddit = (props) => {
     formData.append('file', file);
     formData.append('upload_preset', 'kmyv04ai');
     axios
-      .post(`http://api.cloudinary.com/v1_1/dx9ovkulf/image/upload`, formData)
+      .post(`http://api.cloudinary.com/v1_1/${process.env.NEXT_PUBLIC_CLOUDINARY}/image/upload`, formData)
       .then((res) => {
         setFormvalue({ ...formvalue, imageUrl: res.data.url });
         console.log("image uploaded successfully");
@@ -76,7 +76,6 @@ const AddEddit = (props) => {
         console.log('error', err);
       });
   };
-
   return (
     <div className="max-w-lg mx-auto my-8">
       <h1 className="text-2xl font-serif font-bold uppercase text-center">

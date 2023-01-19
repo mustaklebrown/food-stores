@@ -1,19 +1,26 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { FiAlignRight } from 'react-icons/fi';
 import { signOut, useSession } from "next-auth/react";
-import { selectTotalQTY } from "../features/cartSlice";
+import { selectTotalQTY, setGetTotals } from "../features/cartSlice";
 import { useDispatch, useSelector } from 'react-redux';
 
 const Header: React.FC = () => {
   const router = useRouter();
   const active = router.pathname
+  const dispatch = useDispatch()
   const totalQTY = useSelector(selectTotalQTY);
 
   const { data: session, status } = useSession();
 
   const [open, setOpen] = useState(false);
+
+  useEffect(() => {
+    dispatch(setGetTotals)
+  }, [])
+
+
   const opennav = () => {
     setOpen((prev) => !prev);
   };

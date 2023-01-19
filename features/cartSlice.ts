@@ -7,6 +7,7 @@ import {
 import toast from 'react-hot-toast';
 import { Food } from '../typing';
 import Card from './../components/Card';
+import CartItem from './../components/CartItem';
 
 // declaring the types for our state
 
@@ -47,6 +48,13 @@ const CartSlice = createSlice({
   initialState,
   name: 'cart',
   reducers: {
+    getTotal: (state) => {
+      let total = state.cartItems.reduce(
+        (acc, item) => acc + item.cartQuantity,
+        0
+      );
+      state.cartTotalQuantity == total;
+    },
     setOpenCart: (state, action: PayloadAction<any>) => {
       state.cartState = action.payload.cartState;
     },
@@ -54,20 +62,28 @@ const CartSlice = createSlice({
       state.cartState = action.payload.cartState;
     },
     setAddItemToCart: (state, action) => {
-      const itemIndex = state.cartItems.findIndex(
-        (item: CartItems) => item.id === action.payload.id
-      );
+      // const itemIndex = state.cartItems.findIndex(
+      //   (item: CartItems) => item.id === action.payload.id
+      // );
 
-      if (itemIndex >= 0) {
-        state.cartItems[itemIndex].cartQuantity += 1;
+      // if (itemIndex >= 0) {
+      //   state.cartItems[itemIndex].cartQuantity += 1;
 
-        toast.success(`Item QTY Increased`);
-      } else {
-        const temp = { ...action.payload, cartQuantity: 1 };
-        state.cartItems.push(temp);
+      //   toast.success(`Item QTY Increased`);
+      // } else {
+      //   const temp = { ...action.payload, cartQuantity: 1 };
+      //   state.cartItems.push(temp);
 
-        toast.success(`${action.payload.name} added to Cart`);
-      }
+      //   toast.success(`${action.payload.name} added to Cart`);
+      // }
+      const newItem = action.payload;
+      const existItem = state.cartItems.find((item) => item.id == newItem.id);
+      const cartItem = existItem
+        ? state.cartItems.map((item) =>
+            item.name === existItem.name ? newItem : item
+          )
+        : [...state.cartItems, CartItem];
+      toast.success(`${action.payload.name} added to Cart`);
 
       localStorage.setItem('cart', JSON.stringify(state.cartItems));
     },
@@ -143,6 +159,7 @@ const CartSlice = createSlice({
 });
 // Here we are just exporting the actions from this slice, so that we can call them anywhere in our app.
 export const {
+  getTotal,
   setOpenCart,
   setCloseCart,
   setAddItemToCart,
